@@ -1,0 +1,30 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 8,
+		"sourceType": "module"
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
+	"extends": "airbnb",
+	"rules": {
+		"arrow-parens": ["error", "always"],
+		"indent": [
+			"error",
+			"tab"
+		],
+		"no-tabs": 0,
+		"no-console": [
+			"error",
+			{
+				"allow": [
+					"warn",
+					"error",
+					"log"
+				]
+			}
+		]
+	}
+}
